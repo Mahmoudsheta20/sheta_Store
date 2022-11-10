@@ -1,0 +1,137 @@
+.app__checkout {
+    position: fixed;
+    right: 7px;
+    top: 62px;
+    padding: 20px;
+    background-color: white;
+    z-index: 20;
+    width: 30%;
+    border-radius: 12px;
+    overflow: auto;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app__checkout .app__cart-cards-image {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app__cart-cards {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.app__checkout .app__cart-cards-price {
+    display: block;
+}
+
+.app__cart-price p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+}
+
+.app__cart-price p span {
+    color: #f44336;
+    padding-left: 7px;
+    font-size: 13px;
+}
+
+.app__price span {
+    font-size: 13px;
+    color: #333333ad;
+    margin-left: 5px;
+}
+
+.app__checkout-button {
+    text-align: center;
+}
+
+.app__checkout-button a {
+    justify-content: center;
+}
+
+.app__checkout-button button {
+    width: 50%;
+    height: 37px;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    color: #0000007d;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: -1px 1px 44px rgb(0 0 0 / 13%);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.app__checkout-button button:hover {
+    color: #eee;
+    background-color: #f02d34;
+}
+
+.app__checkout-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+    align-items: center;
+}
+
+.app__checkout-total p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.app__checkout-total span {
+    font-size: 18px;
+    color: #1e1a1a87;
+    font-weight: 600;
+}
+
+.app__checkout-icon svg {
+    font-size: 18px;
+    color: #0000005e;
+    cursor: pointer;
+}
+
+.app__cart-image {
+    width: 40px;
+}
+
+.app__cart-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* .app__checkout-bottom {
+    margin-top: 128px;
+    margin-bottom: 32px;
+} */
+
+.app_cart-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .app__checkout {
+        top: 0;
+        width: 100%;
+        z-index: 500;
+        height: 100%;
+        max-height: 100%;
+    }
+}

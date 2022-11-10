@@ -1,0 +1,80 @@
+.app__DetailsOverview {
+    padding: 20px 120px;
+    height: 100vh;
+}
+
+.app__DetailsOverview-highlights h2 {
+    font-size: 17px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.app__DetailsOverview-highlights ul {
+    display: flex;
+    font-size: 13px;
+    flex-direction: column;
+    align-items: start;
+    gap: 11px;
+    margin-left: 16px;
+}
+
+.app__DetailsOverview-highlights ul li {
+    list-style: disc;
+    font-size: 13px;
+    color: #404553;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.app__DetailsOverview-highlights table tr:nth-child(2n+1) td {
+    background-color: #eee;
+}
+
+.app__DetailsOverview-highlights table td:first-child {
+    padding-right: 0px;
+    width: 40%;
+}
+
+.app__DetailsOverview-highlights table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.app__DetailsOverview-highlights table td {
+    width: 60%;
+    padding: 7px 15px;
+}
+
+.app__DetailsOverview-highlights td {
+    border: none;
+    padding-right: 0px;
+    width: 40%;
+    font-size: 16px;
+    color: #000000e6;
+}
+
+.app__DetailsOverview-lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 12px 0;
+}
+
+.app__DetailsOverview-list {
+    width: 100%;
+}
+
+.app__DetailsOverview-highlights {
+    padding-bottom: 30px;
+}
+
+.app__DetailsOverview-highlights h2 {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .app__DetailsOverview {
+        padding: 20px;
+        display: revert;
+    }
+}

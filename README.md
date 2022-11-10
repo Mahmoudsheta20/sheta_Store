@@ -1,1 +1,1 @@
-# sheta_Store
+# ShetaStore

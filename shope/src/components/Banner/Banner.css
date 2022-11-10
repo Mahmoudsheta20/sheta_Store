@@ -1,0 +1,156 @@
+.app__banner {
+    padding: 0 120px;
+    margin-top: 150px;
+}
+
+.app__banner-container {
+    height: 400px;
+    background: #eee;
+    border-radius: 20px;
+}
+
+.hero-banner-container {
+    padding: 0 40px;
+    background-color: #dcdcdc54;
+    border-radius: 15px;
+    position: relative;
+    height: 468px;
+    line-height: 0.9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-banner-container .beats-solo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f02d34;
+}
+
+.hero-banner-container button {
+    border-radius: 4px;
+    padding: 12px 21px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 16px 32px 0 rgb(103 103 103 / 6%);
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.hero-banner-container svg {
+    color: #000;
+    font-size: 19px;
+    transition: all .3s;
+}
+
+.hero-banner-container button:hover {
+    background-color: #f02d34;
+    color: white;
+}
+
+.hero-banner-container button:hover svg {
+    color: white;
+}
+
+.hero-banner-container h3 {
+    font-size: 4rem;
+    margin-top: 14px;
+    font-weight: 600;
+    padding-bottom: 59px;
+    line-height: 1.1;
+    word-break: break-word;
+}
+
+.hero-banner-container h1 {
+    color: white;
+    font-size: 10em;
+    margin-left: -20px;
+    text-transform: uppercase;
+}
+
+.hero-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.desc {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    width: 300px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    color: #324d67;
+}
+
+.desc p {
+    color: #5f5f5f;
+    font-weight: 100;
+    text-align: end;
+}
+
+.desc h5 {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    /* color: black; */
+    align-self: flex-end;
+}
+
+.hero-banner-container>div {
+    display: flex;
+    align-items: center;
+}
+
+.hero-banner-right {
+    width: 50%;
+    animation: up-and-down 5s linear infinite;
+    position: relative;
+}
+
+.hero-banner-left {
+    width: 44%;
+}
+
+@keyframes up-and-down {
+    0%,
+    100% {
+        top: 0;
+    }
+    50% {
+        top: -50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero-banner-container h3 {
+        font-size: 1.5rem;
+    }
+    .hero-banner-container {
+        height: 290px;
+        padding: 0px 20px;
+    }
+    .app__banner {
+        padding: 0 30px;
+        margin-top: 0;
+    }
+    .hero-banner-container button {
+        padding: 10px 10px;
+    }
+    .app__categroy h2 {
+        text-align: center;
+    }
+}
+
+.hero-banner-left a {
+    height: 0;
+}

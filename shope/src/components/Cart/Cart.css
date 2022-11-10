@@ -1,0 +1,250 @@
+.app__cart {
+    text-align: center;
+    padding: 50px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.app__cart>div {}
+
+.app__cart-product {
+    width: 60%;
+}
+
+.app__cart-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin: 50px 0;
+    padding: 0 20px;
+}
+
+.app__cart-cards-image {
+    width: 10%;
+    height: 100%;
+    padding: 8px 0;
+}
+
+.app__cart-cards-image img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.app__cart-cards-price {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.app__cart-count {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #eeeeee8a;
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: 1px solid #00000003;
+}
+
+.app__cart-details {
+    padding: 0 24px;
+    margin-left: 27px;
+}
+
+.app__cart-cards {
+    box-shadow: -1px 1px 44px rgb(0 0 0 / 14%);
+}
+
+.app__cart-count p:nth-child(2) {
+    padding: 0px 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.app__cart-count svg {
+    font-size: 13px;
+    color: #ff7d1b;
+}
+
+.app__cart-count p {
+    display: flex;
+    align-items: center;
+}
+
+.app__cart-header {
+    border-bottom: 1px solid #0000001a;
+    padding: 30px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app__cart-header h1 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.app__cart-checkout {
+    width: 27%;
+    right: 0;
+    height: 100%;
+    top: 50px;
+    padding: 0 30px;
+    background: #eeeeee63;
+    padding-bottom: 50px;
+    border-radius: 16px;
+    border: 1px solid #00000012;
+}
+
+.app__cart-cards-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.app__cart-cards-shapping button {
+    background: #673ab7;
+    border: none;
+    color: white;
+    padding: 8px 11px;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    border-radius: 7px;
+    cursor: pointer;
+    letter-spacing: .8px;
+}
+
+.app__cart-cards-shapping p {
+    text-align: start;
+    font-size: 15px;
+    color: #000000d6;
+    font-weight: 600;
+}
+
+.app__cart-cards-price p {
+    text-align: start;
+    font-size: 17px;
+    color: #000000a1;
+    font-weight: 700;
+}
+
+.app__cart-cards-price span {
+    color: #f02d34;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.app__cart-cards-shapping input {
+    width: 100%;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-bottom: 35px;
+    margin-top: 12px;
+    box-shadow: -1px 1px 44px rgb(0 0 0 / 10%);
+}
+
+.app__cart-cards-price-cehckout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0px;
+}
+
+.app__cart-checkout-button {
+    width: 63%;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: -1px 1px 44px rgb(0 0 0 / 10%);
+}
+
+.app__cart-checkout-button:hover {
+    background-color: #ff5722;
+    color: white
+}
+
+.Continue {
+    text-align: start;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #314eec;
+}
+
+.app__cart-cards-price-cehckout p {
+    font-size: 17px;
+    font-weight: 600
+}
+
+.app__cart-cards-name p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.app__cart-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex: 1;
+}
+
+.app__cart-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#total {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(14 14 14 / 91%);
+}
+
+@media screen and (max-width:992px) {
+    .app__cart {
+        flex-direction: column;
+    }
+    .app__cart-product {
+        width: 100%;
+    }
+    .app__cart-checkout {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .app__cart-cards-image {
+        width: 20%;
+    }
+    .app__cart-cards-name p {
+        font-size: 15px;
+    }
+    .app__cart-count {
+        gap: 10px;
+        padding: 6px 1px;
+    }
+}
+
+.Continue-a {
+    justify-content: start;
+}

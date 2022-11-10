@@ -1,0 +1,95 @@
+.app__home-cards-image img {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+}
+
+.app__home-cards-name {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.app__home-cards-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px px;
+    padding-bottom: 10px;
+}
+
+.app__home-cards-price p {
+    font-size: 12px;
+    color: #00000075;
+    padding: 2px 0;
+}
+
+.app__home-cards-price button {
+    background: white;
+    border: none;
+}
+
+.app__home-cards-price button svg {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding: 3px;
+    color: white;
+    background-color: #ff9800;
+}
+
+.love {
+    border: none;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.app__card-discout {
+    padding: 4px 0;
+    gap: 7px;
+}
+
+.app__card-discout h3 {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.app__card-discount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    padding: 0 20px;
+}
+
+.app__card-discount p {
+    text-decoration: line-through;
+    font-weight: 600;
+    color: #444444b5;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.app__card-discout span {
+    font-size: 11px;
+    background: #eee;
+    padding: 2px 3px;
+    color: #ff5722;
+    border-radius: 5px;
+    text-decoration: none;
+}

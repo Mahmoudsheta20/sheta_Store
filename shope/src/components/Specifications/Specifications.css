@@ -1,0 +1,56 @@
+.app__DetailsOverview-highlights table tr:nth-child(2n+1) td {
+    background-color: #eee;
+}
+
+.app__DetailsOverview-highlights table td:first-child {
+    padding-right: 0px;
+    width: 40%;
+}
+
+.app__DetailsOverview-highlights table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.app__DetailsOverview-highlights table td {
+    width: 60%;
+    padding: 7px 15px;
+}
+
+.app__DetailsOverview-highlights td {
+    border: none;
+    padding-right: 0px;
+    width: 40%;
+    font-size: 16px;
+    color: #000000e6;
+}
+
+.app__DetailsOverview-lists {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 20px 0;
+}
+
+.app__DetailsOverview-list {
+    width: 100%;
+}
+
+.left p {
+    color: #333333bf;
+}
+
+.left h2 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #222;
+}
+
+.left h3 {
+    font-size: 32px;
+    color: #c49036;
+}
+
+.ico svg {
+    font-size: 25px;
+}

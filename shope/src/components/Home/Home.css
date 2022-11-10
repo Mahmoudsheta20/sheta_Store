@@ -1,0 +1,162 @@
+.app__home {
+    width: 100%;
+    padding: 100px 60px;
+}
+
+.app__home-search div {
+    width: 100%;
+    height: 42px;
+    background-color: #f6f1f1;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px 20px;
+    gap: 10px;
+}
+
+.app__home-search input {
+    border: none;
+    width: 100%;
+    height: 41px;
+    border-radius: 13px;
+    padding: 0 10px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.app__home-search svg {
+    font-size: 19px;
+    color: #333;
+}
+
+.app__home-search-result {
+    padding: 25px 0;
+    color: #6666665e;
+}
+
+.app__home-search-result p {
+    font-size: 15px;
+}
+
+.app__home-search-result span {
+    color: #000;
+}
+
+.app__home-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.app__home-cards {
+    width: 100%;
+}
+
+.app__main-card {
+    width: 250px;
+    border: 1px solid #0000000d;
+    border-radius: 18px;
+    padding: 0px 16px;
+    box-shadow: -1px 1px 44px rgb(0 0 0 / 14%);
+    margin-top: 20px;
+    height: 410px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.app__categroy {
+    padding: 20px 0;
+}
+
+.app__categroy h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #ff9800 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-slider {
+    width: 100%;
+}
+
+.app__home-cards-min {
+    display: none;
+}
+
+.inner-carousel {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.carousel {
+    overflow: hidden;
+    cursor: grab;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: -21px;
+    width: 23px;
+    height: 23px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    background-color: #ff9800;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: -21px;
+    width: 23px;
+    height: 23px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    background-color: #ff9800;
+    color: white;
+}
+
+.app__home-main {
+    position: relative;
+}
+
+@media screen and (max-width:992px) {
+    .Home__Filter-cards {
+        width: 100%;
+        position: relative;
+    }
+    .app__filter {
+        padding: 0 30px;
+        z-index: 1;
+        width: 100%;
+        border-right: 1px solid #00000014;
+        margin-top: 8px;
+    }
+    .app__home-cards {
+        justify-content: center;
+    }
+}
